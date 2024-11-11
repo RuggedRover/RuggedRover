@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuggedRover ($RGR) - The Friendly Rug</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff914d;
+            padding: 50px;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        button {
+            background-color: #ffcd3c;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ffc107;
+        }
+        section {
+            padding: 50px;
+        }
+        #about {
+            background-color: #ffffff;
+        }
+        #tokenomics {
+            background-color: #e0f7fa;
+        }
+        #roadmap {
+            background-color: #fff3e0;
+        }
+        #hero-journey {
+            background-color: #e8f5e9;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .pie-chart {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            background: url('pie-chart-placeholder.png') no-repeat center;
+            background-size: contain;
+        }
+        .roadmap-timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .roadmap-item {
+            background-color: #ffcd3c;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+        .hero-step {
+            background-color: #c8e6c9;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RuggedRover: The Friendly Bandit of Crypto</h1>
+        <p>Get Rugged... And Win Treasures! 🦡💰✨</p>
+        <button onclick="window.location.href='#buy'">Buy $RGR Now</button>
+        <button onclick="window.location.href='#community'">Join the Adventure</button>
+    </header>
+
+    <section id="about">
+        <h2>Meet Rover</h2>
+        <p>Rover is a mischievously adorable raccoon with a heart of gold. Known as the "Friendly Bandit," Rover loves to playfully pull the rug—but instead of trouble, he leaves treasures behind! With $RGR, getting rugged feels like winning a jackpot!</p>
+    </section>
+
+    <section id="tokenomics">
+        <h2>Tokenomics</h2>
+        <p>Total Supply: 1,000,000,000 RGR</p>
+        <div class="pie-chart"></div>
+    </section>
+
+    <section id="roadmap">
+        <h2>Roadmap</h2>
+        <div class="roadmap-timeline">
+            <div class="roadmap-item">
+                <h3>Phase 1: Launch</h3>
+                <p>Website launch, community growth, and token distribution.</p>
+            </div>
+            <div class="roadmap-item">
+                <h3>Phase 2: Rug Events Begin</h3>
+                <p>First Rug Event and exclusive NFT release for early supporters.</p>
+            </div>
+            <div class="roadmap-item">
+                <h3>Phase 3: Partnerships</h3>
+                <p>Collaborations with other meme coins and DEX listings.</p>
+            </div>
+            <div class="roadmap-item">
+                <h3>Phase 4: Expansion</h3>
+                <p>Major CEX listings and reaching 100,000 community members.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero-journey">
+        <h2>Rover's Hero Journey</h2>
+        <div class="hero-steps">
+            <div class="hero-step">
+                <h3>Step 1: The Call to Adventure</h3>
+                <p>Rover embarks on a journey to create the friendliest crypto in the market, bringing joy to the community.</p>
+            </div>
+            <div class="hero-step">
+                <h3>Step 2: The First Rug</h3>
+                <p>Rover playfully attempts the first "rug pull," but instead rewards holders with extra $RGR tokens.</p>
+            </div>
+            <div class="hero-step">
+                <h3>Step 3: Trials and Allies</h3>
+                <p>Rover forms alliances with other meme coins and navigates challenges to grow the community.</p>
+            </div>
+            <div class="hero-step">
+                <h3>Step 4: The Ultimate Reward</h3>
+                <p>Rover reaches the ultimate goal—making $RGR a beloved token with a loyal community that enjoys every twist and turn.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Stay connected with RuggedRover: <a href="https://twitter.com/ruggedrover">Twitter</a> | <a href="https://discord.com/ruggedrover">Discord</a></p>
+    </footer>
+</body>
+</html>
